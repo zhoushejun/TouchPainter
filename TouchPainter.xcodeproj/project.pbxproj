@@ -10,10 +10,11 @@
 		18AF31B71A33271000402401 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF31B61A33271000402401 /* main.m */; };
 		18AF31BA1A33271000402401 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF31B91A33271000402401 /* AppDelegate.m */; };
 		18AF31BD1A33271000402401 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF31BC1A33271000402401 /* ViewController.m */; };
-		18AF31C01A33271000402401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AF31BE1A33271000402401 /* Main.storyboard */; };
 		18AF31C21A33271000402401 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AF31C11A33271000402401 /* Images.xcassets */; };
 		18AF31C51A33271000402401 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AF31C31A33271000402401 /* LaunchScreen.xib */; };
 		18AF31D11A33271100402401 /* TouchPainterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF31D01A33271100402401 /* TouchPainterTests.m */; };
+		18AF31E41A332A3300402401 /* RootNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF31E31A332A3300402401 /* RootNavigationViewController.m */; };
+		18AF31E71A332E7600402401 /* Public.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF31E61A332E7600402401 /* Public.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +35,15 @@
 		18AF31B91A33271000402401 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18AF31BB1A33271000402401 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18AF31BC1A33271000402401 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18AF31BF1A33271000402401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18AF31C11A33271000402401 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18AF31C41A33271000402401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18AF31CA1A33271100402401 /* TouchPainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchPainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AF31CF1A33271100402401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18AF31D01A33271100402401 /* TouchPainterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchPainterTests.m; sourceTree = "<group>"; };
+		18AF31E21A332A3300402401 /* RootNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationViewController.h; sourceTree = "<group>"; };
+		18AF31E31A332A3300402401 /* RootNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationViewController.m; sourceTree = "<group>"; };
+		18AF31E51A332E7600402401 /* Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
+		18AF31E61A332E7600402401 /* Public.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Public.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +85,7 @@
 		18AF31B31A33271000402401 /* TouchPainter */ = {
 			isa = PBXGroup;
 			children = (
-				18AF31B81A33271000402401 /* AppDelegate.h */,
-				18AF31B91A33271000402401 /* AppDelegate.m */,
-				18AF31BB1A33271000402401 /* ViewController.h */,
-				18AF31BC1A33271000402401 /* ViewController.m */,
-				18AF31BE1A33271000402401 /* Main.storyboard */,
+				18AF31DA1A33298C00402401 /* Classes */,
 				18AF31C11A33271000402401 /* Images.xcassets */,
 				18AF31C31A33271000402401 /* LaunchScreen.xib */,
 				18AF31B41A33271000402401 /* Supporting Files */,
@@ -98,6 +98,8 @@
 			children = (
 				18AF31B51A33271000402401 /* Info.plist */,
 				18AF31B61A33271000402401 /* main.m */,
+				18AF31B81A33271000402401 /* AppDelegate.h */,
+				18AF31B91A33271000402401 /* AppDelegate.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +119,75 @@
 				18AF31CF1A33271100402401 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18AF31DA1A33298C00402401 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18AF31DF1A3329C800402401 /* Model */,
+				18AF31DE1A3329C100402401 /* View */,
+				18AF31DD1A3329B000402401 /* ViewController */,
+				18AF31DC1A3329A900402401 /* Public */,
+				18AF31DB1A33299F00402401 /* Other */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		18AF31DB1A33299F00402401 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		18AF31DC1A3329A900402401 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				18AF31E51A332E7600402401 /* Public.h */,
+				18AF31E61A332E7600402401 /* Public.m */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		18AF31DD1A3329B000402401 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18AF31E11A3329FC00402401 /* viewRoot */,
+				18AF31E01A3329EA00402401 /* viewMain */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		18AF31DE1A3329C100402401 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		18AF31DF1A3329C800402401 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		18AF31E01A3329EA00402401 /* viewMain */ = {
+			isa = PBXGroup;
+			children = (
+				18AF31BB1A33271000402401 /* ViewController.h */,
+				18AF31BC1A33271000402401 /* ViewController.m */,
+			);
+			name = viewMain;
+			sourceTree = "<group>";
+		};
+		18AF31E11A3329FC00402401 /* viewRoot */ = {
+			isa = PBXGroup;
+			children = (
+				18AF31E21A332A3300402401 /* RootNavigationViewController.h */,
+				18AF31E31A332A3300402401 /* RootNavigationViewController.m */,
+			);
+			name = viewRoot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +270,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18AF31C01A33271000402401 /* Main.storyboard in Resources */,
 				18AF31C51A33271000402401 /* LaunchScreen.xib in Resources */,
 				18AF31C21A33271000402401 /* Images.xcassets in Resources */,
 			);
@@ -219,8 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AF31E41A332A3300402401 /* RootNavigationViewController.m in Sources */,
 				18AF31BD1A33271000402401 /* ViewController.m in Sources */,
 				18AF31BA1A33271000402401 /* AppDelegate.m in Sources */,
+				18AF31E71A332E7600402401 /* Public.m in Sources */,
 				18AF31B71A33271000402401 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +316,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		18AF31BE1A33271000402401 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18AF31BF1A33271000402401 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18AF31C31A33271000402401 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +397,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -345,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TouchPainter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TouchPainter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
