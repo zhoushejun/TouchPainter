@@ -10,6 +10,7 @@
 		188BE48C1A33344900D8EEFA /* OCCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BE48B1A33344900D8EEFA /* OCCanvasViewController.m */; };
 		188BE48F1A3335C200D8EEFA /* OCPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BE48E1A3335C200D8EEFA /* OCPaletteViewController.m */; };
 		188BE4921A33362D00D8EEFA /* OCThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BE4911A33362D00D8EEFA /* OCThumbnailViewController.m */; };
+		188BE4951A333FDD00D8EEFA /* OCCoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BE4941A333FDD00D8EEFA /* OCCoordinatingController.m */; };
 		18AF31B71A33271000402401 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF31B61A33271000402401 /* main.m */; };
 		18AF31BA1A33271000402401 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF31B91A33271000402401 /* AppDelegate.m */; };
 		18AF31BD1A33271000402401 /* OCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF31BC1A33271000402401 /* OCRootViewController.m */; };
@@ -37,6 +38,8 @@
 		188BE48E1A3335C200D8EEFA /* OCPaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCPaletteViewController.m; sourceTree = "<group>"; };
 		188BE4901A33362D00D8EEFA /* OCThumbnailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCThumbnailViewController.h; sourceTree = "<group>"; };
 		188BE4911A33362D00D8EEFA /* OCThumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCThumbnailViewController.m; sourceTree = "<group>"; };
+		188BE4931A333FDD00D8EEFA /* OCCoordinatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCoordinatingController.h; sourceTree = "<group>"; };
+		188BE4941A333FDD00D8EEFA /* OCCoordinatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCCoordinatingController.m; sourceTree = "<group>"; };
 		18AF31B11A33271000402401 /* TouchPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AF31B51A33271000402401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18AF31B61A33271000402401 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -192,6 +195,8 @@
 				188BE48E1A3335C200D8EEFA /* OCPaletteViewController.m */,
 				188BE4901A33362D00D8EEFA /* OCThumbnailViewController.h */,
 				188BE4911A33362D00D8EEFA /* OCThumbnailViewController.m */,
+				188BE4931A333FDD00D8EEFA /* OCCoordinatingController.h */,
+				188BE4941A333FDD00D8EEFA /* OCCoordinatingController.m */,
 			);
 			name = viewMain;
 			sourceTree = "<group>";
@@ -313,6 +318,7 @@
 				18AF31E71A332E7600402401 /* Public.m in Sources */,
 				188BE48F1A3335C200D8EEFA /* OCPaletteViewController.m in Sources */,
 				18AF31B71A33271000402401 /* main.m in Sources */,
+				188BE4951A333FDD00D8EEFA /* OCCoordinatingController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
