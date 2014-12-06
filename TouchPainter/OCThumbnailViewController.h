@@ -17,8 +17,16 @@
  @brief         缩略图控制器
  */
 
+/**
+ @addtogroup    viewMain
+ @{
+ */
+
 #import <UIKit/UIKit.h>
 
+/** 缩略图控制器 */
 @interface OCThumbnailViewController : UIViewController
 
 @end
+
+/** @} */
