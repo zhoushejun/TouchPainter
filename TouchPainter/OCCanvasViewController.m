@@ -1,25 +1,22 @@
 //
-//  RootNavigationViewController.m
+//  OCCanvasViewController.m
 //  TouchPainter
 //
 //  Created by zhoushejun on 14-12-6.
 //  Copyright (c) 2014年 shejun.zhou. All rights reserved.
 //
 
-#import "RootNavigationViewController.h"
+#import "OCCanvasViewController.h"
 
-@interface RootNavigationViewController ()
+@interface OCCanvasViewController ()
 
 @end
 
-@implementation RootNavigationViewController
+@implementation OCCanvasViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    UINavigationBar *navBar = [UINavigationBar appearance];
-    navBar.tintColor = [UIColor whiteColor];
-    [navBar setBackgroundImage:[UIImage imageNamed:@"navBar"] forBarMetrics:UIBarMetricsDefault];
 }
 
 - (void)didReceiveMemoryWarning {

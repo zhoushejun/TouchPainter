@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188BE48C1A33344900D8EEFA /* OCCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BE48B1A33344900D8EEFA /* OCCanvasViewController.m */; };
+		188BE48F1A3335C200D8EEFA /* OCPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BE48E1A3335C200D8EEFA /* OCPaletteViewController.m */; };
+		188BE4921A33362D00D8EEFA /* OCThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BE4911A33362D00D8EEFA /* OCThumbnailViewController.m */; };
 		18AF31B71A33271000402401 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF31B61A33271000402401 /* main.m */; };
 		18AF31BA1A33271000402401 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF31B91A33271000402401 /* AppDelegate.m */; };
-		18AF31BD1A33271000402401 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF31BC1A33271000402401 /* ViewController.m */; };
+		18AF31BD1A33271000402401 /* OCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF31BC1A33271000402401 /* OCRootViewController.m */; };
 		18AF31C21A33271000402401 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AF31C11A33271000402401 /* Images.xcassets */; };
 		18AF31C51A33271000402401 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AF31C31A33271000402401 /* LaunchScreen.xib */; };
 		18AF31D11A33271100402401 /* TouchPainterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF31D01A33271100402401 /* TouchPainterTests.m */; };
-		18AF31E41A332A3300402401 /* RootNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF31E31A332A3300402401 /* RootNavigationViewController.m */; };
+		18AF31E41A332A3300402401 /* OCRootNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF31E31A332A3300402401 /* OCRootNavigationViewController.m */; };
 		18AF31E71A332E7600402401 /* Public.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AF31E61A332E7600402401 /* Public.m */; };
 /* End PBXBuildFile section */
 
@@ -28,20 +31,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		188BE48A1A33344900D8EEFA /* OCCanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCanvasViewController.h; sourceTree = "<group>"; };
+		188BE48B1A33344900D8EEFA /* OCCanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCCanvasViewController.m; sourceTree = "<group>"; };
+		188BE48D1A3335C200D8EEFA /* OCPaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCPaletteViewController.h; sourceTree = "<group>"; };
+		188BE48E1A3335C200D8EEFA /* OCPaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCPaletteViewController.m; sourceTree = "<group>"; };
+		188BE4901A33362D00D8EEFA /* OCThumbnailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCThumbnailViewController.h; sourceTree = "<group>"; };
+		188BE4911A33362D00D8EEFA /* OCThumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCThumbnailViewController.m; sourceTree = "<group>"; };
 		18AF31B11A33271000402401 /* TouchPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AF31B51A33271000402401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18AF31B61A33271000402401 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18AF31B81A33271000402401 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18AF31B91A33271000402401 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18AF31BB1A33271000402401 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18AF31BC1A33271000402401 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18AF31BB1A33271000402401 /* OCRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCRootViewController.h; sourceTree = "<group>"; };
+		18AF31BC1A33271000402401 /* OCRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCRootViewController.m; sourceTree = "<group>"; };
 		18AF31C11A33271000402401 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18AF31C41A33271000402401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18AF31CA1A33271100402401 /* TouchPainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchPainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AF31CF1A33271100402401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18AF31D01A33271100402401 /* TouchPainterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchPainterTests.m; sourceTree = "<group>"; };
-		18AF31E21A332A3300402401 /* RootNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationViewController.h; sourceTree = "<group>"; };
-		18AF31E31A332A3300402401 /* RootNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationViewController.m; sourceTree = "<group>"; };
+		18AF31E21A332A3300402401 /* OCRootNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCRootNavigationViewController.h; sourceTree = "<group>"; };
+		18AF31E31A332A3300402401 /* OCRootNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCRootNavigationViewController.m; sourceTree = "<group>"; };
 		18AF31E51A332E7600402401 /* Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
 		18AF31E61A332E7600402401 /* Public.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Public.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,8 +184,14 @@
 		18AF31E01A3329EA00402401 /* viewMain */ = {
 			isa = PBXGroup;
 			children = (
-				18AF31BB1A33271000402401 /* ViewController.h */,
-				18AF31BC1A33271000402401 /* ViewController.m */,
+				18AF31BB1A33271000402401 /* OCRootViewController.h */,
+				18AF31BC1A33271000402401 /* OCRootViewController.m */,
+				188BE48A1A33344900D8EEFA /* OCCanvasViewController.h */,
+				188BE48B1A33344900D8EEFA /* OCCanvasViewController.m */,
+				188BE48D1A3335C200D8EEFA /* OCPaletteViewController.h */,
+				188BE48E1A3335C200D8EEFA /* OCPaletteViewController.m */,
+				188BE4901A33362D00D8EEFA /* OCThumbnailViewController.h */,
+				188BE4911A33362D00D8EEFA /* OCThumbnailViewController.m */,
 			);
 			name = viewMain;
 			sourceTree = "<group>";
@@ -184,8 +199,8 @@
 		18AF31E11A3329FC00402401 /* viewRoot */ = {
 			isa = PBXGroup;
 			children = (
-				18AF31E21A332A3300402401 /* RootNavigationViewController.h */,
-				18AF31E31A332A3300402401 /* RootNavigationViewController.m */,
+				18AF31E21A332A3300402401 /* OCRootNavigationViewController.h */,
+				18AF31E31A332A3300402401 /* OCRootNavigationViewController.m */,
 			);
 			name = viewRoot;
 			sourceTree = "<group>";
@@ -234,6 +249,7 @@
 		18AF31A91A33271000402401 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = OC;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = shejun.zhou;
 				TargetAttributes = {
@@ -289,10 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18AF31E41A332A3300402401 /* RootNavigationViewController.m in Sources */,
-				18AF31BD1A33271000402401 /* ViewController.m in Sources */,
+				188BE48C1A33344900D8EEFA /* OCCanvasViewController.m in Sources */,
+				18AF31E41A332A3300402401 /* OCRootNavigationViewController.m in Sources */,
+				18AF31BD1A33271000402401 /* OCRootViewController.m in Sources */,
+				188BE4921A33362D00D8EEFA /* OCThumbnailViewController.m in Sources */,
 				18AF31BA1A33271000402401 /* AppDelegate.m in Sources */,
 				18AF31E71A332E7600402401 /* Public.m in Sources */,
+				188BE48F1A3335C200D8EEFA /* OCPaletteViewController.m in Sources */,
 				18AF31B71A33271000402401 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +499,7 @@
 				18AF31D61A33271100402401 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18AF31D71A33271100402401 /* Build configuration list for PBXNativeTarget "TouchPainterTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +508,7 @@
 				18AF31D91A33271100402401 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

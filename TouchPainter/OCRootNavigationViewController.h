@@ -1,5 +1,5 @@
 //
-//  RootNavigationViewController.h
+//  OCRootNavigationViewController.h
 //  TouchPainter
 //
 //  Created by zhoushejun on 14-12-6.
@@ -7,7 +7,7 @@
 //
 
 /**
- @file          RootNavigationViewController.h
+ @file          OCRootNavigationViewController.h
  
  @author		shejun.zhou
  @version		1.0
@@ -27,6 +27,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootNavigationViewController : UINavigationController
+@interface OCRootNavigationViewController : UINavigationController
 
 @end
