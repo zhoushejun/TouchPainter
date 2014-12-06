@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OCCanvasViewController.h
 //  TouchPainter
 //
 //  Created by zhoushejun on 14-12-6.
@@ -7,20 +7,18 @@
 //
 
 /**
- @file          ViewController.h
+ @file          OCCanvasViewController.h
  
  @author		shejun.zhou
  @version		1.0
  @date          2014-12-06
  @copyright     shejun.zhou
  
- @brief         根视图控制器
+ @brief         主画布视图控制器
  */
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface OCCanvasViewController : UIViewController
 
 @end
-
