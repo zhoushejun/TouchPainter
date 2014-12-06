@@ -12,7 +12,7 @@
  @author		shejun.zhou
  @version		1.0
  @date          2014-12-06
- @copyright     shejun.zhou
+ @copyright     shejun.zhou
  
  @brief         主画布视图控制器
  */
