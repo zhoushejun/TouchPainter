@@ -17,8 +17,16 @@
  @brief         主画布视图控制器
  */
 
+/**
+ @addtogroup    viewMain
+ @{
+ */
+
 #import <UIKit/UIKit.h>
 
+/** 主画布视图控制器 */
 @interface OCCanvasViewController : UIViewController
 
 @end
+
+/** @} */

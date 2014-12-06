@@ -17,8 +17,16 @@
  @brief         调色板视图控制器
  */
 
+/**
+ @addtogroup    viewMain
+ @{
+ */
+
 #import <UIKit/UIKit.h>
 
+/** 调色板视图控制器 */
 @interface OCPaletteViewController : UIViewController
 
 @end
+
+/** @} */
