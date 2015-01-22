@@ -8,6 +8,25 @@
 
 #import "OCMark.h"
 
-@implementation OCMark
+#pragma mark - OCVertex
+
+@implementation OCVertex
+
+- (id)copyWithZone:(NSZone *)zone{
+//    OCVertex *vertex = [[self class] allocWithZone:zone] initwithl
+    return self;
+}
+
+@end
+
+#pragma mark - OCDot
+
+@implementation OCDot
+
+@end
+
+#pragma mark - OCStroke
+
+@implementation OCStroke
 
 @end

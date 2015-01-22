@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "OCRootViewController.h"
 #import "OCRootNavigationViewController.h"
+#import "OCThumbnailViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    OCRootViewController *rootViewController = [[OCRootViewController alloc] init];
+    OCThumbnailViewController *rootViewController = [[OCThumbnailViewController alloc] init];
     OCRootNavigationViewController *rootNavigationViewController = [[OCRootNavigationViewController alloc] initWithRootViewController:rootViewController];
     [self.window setRootViewController:rootNavigationViewController];
     self.window.backgroundColor = [UIColor whiteColor];

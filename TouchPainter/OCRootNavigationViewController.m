@@ -17,9 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    UINavigationBar *navBar = [UINavigationBar appearance];
-    navBar.tintColor = [UIColor whiteColor];
-    [navBar setBackgroundImage:[UIImage imageNamed:@"navBar"] forBarMetrics:UIBarMetricsDefault];
+//    UINavigationBar *navBar = [UINavigationBar appearance];
+//    navBar.tintColor = [UIColor whiteColor];
+//    [navBar setBackgroundImage:[UIImage imageNamed:@"navBar"] forBarMetrics:UIBarMetricsDefault];
 }
 
 - (void)didReceiveMemoryWarning {
