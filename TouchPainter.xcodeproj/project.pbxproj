@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184888FC1A34624E0063D5C9 /* OCMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 184888FB1A34624E0063D5C9 /* OCMark.m */; };
+		1884A40F1A71508900292F3A /* OCThumbnailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884A40E1A71508900292F3A /* OCThumbnailCollectionViewCell.m */; };
 		188BE48C1A33344900D8EEFA /* OCCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BE48B1A33344900D8EEFA /* OCCanvasViewController.m */; };
 		188BE48F1A3335C200D8EEFA /* OCPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BE48E1A3335C200D8EEFA /* OCPaletteViewController.m */; };
 		188BE4921A33362D00D8EEFA /* OCThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BE4911A33362D00D8EEFA /* OCThumbnailViewController.m */; };
@@ -32,6 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		184888FA1A34624E0063D5C9 /* OCMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMark.h; sourceTree = "<group>"; };
+		184888FB1A34624E0063D5C9 /* OCMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMark.m; sourceTree = "<group>"; };
+		1884A40C1A71427800292F3A /* TouchPainter.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchPainter.pch; sourceTree = "<group>"; };
+		1884A40D1A71508900292F3A /* OCThumbnailCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCThumbnailCollectionViewCell.h; sourceTree = "<group>"; };
+		1884A40E1A71508900292F3A /* OCThumbnailCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCThumbnailCollectionViewCell.m; sourceTree = "<group>"; };
 		188BE48A1A33344900D8EEFA /* OCCanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCanvasViewController.h; sourceTree = "<group>"; };
 		188BE48B1A33344900D8EEFA /* OCCanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCCanvasViewController.m; sourceTree = "<group>"; };
 		188BE48D1A3335C200D8EEFA /* OCPaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCPaletteViewController.h; sourceTree = "<group>"; };
@@ -112,6 +119,7 @@
 				18AF31B61A33271000402401 /* main.m */,
 				18AF31B81A33271000402401 /* AppDelegate.h */,
 				18AF31B91A33271000402401 /* AppDelegate.m */,
+				1884A40C1A71427800292F3A /* TouchPainter.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -173,6 +181,8 @@
 		18AF31DE1A3329C100402401 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1884A40D1A71508900292F3A /* OCThumbnailCollectionViewCell.h */,
+				1884A40E1A71508900292F3A /* OCThumbnailCollectionViewCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -180,6 +190,8 @@
 		18AF31DF1A3329C800402401 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				184888FA1A34624E0063D5C9 /* OCMark.h */,
+				184888FB1A34624E0063D5C9 /* OCMark.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -311,12 +323,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				188BE48C1A33344900D8EEFA /* OCCanvasViewController.m in Sources */,
+				184888FC1A34624E0063D5C9 /* OCMark.m in Sources */,
 				18AF31E41A332A3300402401 /* OCRootNavigationViewController.m in Sources */,
 				18AF31BD1A33271000402401 /* OCRootViewController.m in Sources */,
 				188BE4921A33362D00D8EEFA /* OCThumbnailViewController.m in Sources */,
 				18AF31BA1A33271000402401 /* AppDelegate.m in Sources */,
 				18AF31E71A332E7600402401 /* Public.m in Sources */,
 				188BE48F1A3335C200D8EEFA /* OCPaletteViewController.m in Sources */,
+				1884A40F1A71508900292F3A /* OCThumbnailCollectionViewCell.m in Sources */,
 				18AF31B71A33271000402401 /* main.m in Sources */,
 				188BE4951A333FDD00D8EEFA /* OCCoordinatingController.m in Sources */,
 			);
@@ -435,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = TouchPainter/TouchPainter.pch;
 				INFOPLIST_FILE = TouchPainter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = TouchPainter/TouchPainter.pch;
 				INFOPLIST_FILE = TouchPainter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

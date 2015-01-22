@@ -25,7 +25,9 @@
 #import <UIKit/UIKit.h>
 
 /** 缩略图控制器 */
-@interface OCThumbnailViewController : UIViewController
+@interface OCThumbnailViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
+
+@property (nonatomic, strong) UICollectionView *collectionView;
 
 @end
 
